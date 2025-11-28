@@ -1,28 +1,78 @@
-# mini-saas-starter-lite
+# Minimal Full-Stack Starter (Raw Node.js + SQLite + Svelte)
+A lightweight, dependency-minimal full-stack starter built with **raw Node.js**, **SQLite**, and **Svelte**.  
+Ideal for small MVPs, experiments, prototyping, and learning how systems work under the hood.
 
-A tiny full-stack starter using **raw Node.js** (no Express), **SQLite**, and **Svelte**.
-Designed for small projects, prototypes and learning.
+**codicem hominem sapere facit — code makes a person wise.**
 
-Slogan: **codicem hominem sapere facit**
+---
 
-## Features
-- Raw Node HTTP server (no Express)
-- SQLite storage (single-file DB)
-- Simple REST endpoints for a "projects/tasks" example
-- Svelte frontend (fetch-based)
-- Minimal dependencies
+## 🚀 Tech Highlights
 
-## Quickstart (dev)
-# from repo root
-# 1) backend
+### 🧱 Backend — Raw Node.js (No Express)
+- Built entirely on Node’s `http`, `url`, and `StringDecoder`
+- Custom router and JSON parser
+- Manual CORS handling
+- REST API for projects & tasks
+- Zero middleware, zero framework overhead
+
+### 🗄️ Database — SQLite
+- Single-file database  
+- No server installation needed  
+- SQL with very low overhead  
+- Great for Windows, Linux, macOS  
+- Perfect for small tools and dashboards
+
+### 🎨 Frontend — Svelte
+- Minimal reactivity
+- Very small bundle size
+- Simple component architecture
+- Fast to build and iterate
+
+---
+
+## 📦 Features
+- Raw HTTP REST API  
+- Projects + Tasks CRUD  
+- SQLite migrations  
+- Clean Svelte interface  
+- Minimal dependencies  
+- Works perfectly on local Windows setup  
+
+---
+
+## 🏃 Getting Started
+
+### Backend
 cd server
 npm install
-npm run dev
+copy .env.example .env
+node index.js
 
-# 2) frontend (open new terminal)
+
+### Frontend
 cd frontend
 npm install
 npm run dev
 
-# Backend runs on http://localhost:3000
-# Frontend dev server runs on http://localhost:5173 (or as configured)
+
+Backend → http://localhost:3000  
+Frontend → http://localhost:5173  
+
+---
+
+## 📂 Folder Structure
+server/ → raw Node backend + SQLite
+frontend/ → Svelte UI
+migrations/ → SQLite schema
+
+
+---
+
+## 🤝 Contributing
+Suggestions & improvements are welcome.  
+Open an issue or submit a PR.
+
+---
+
+## 🧡 Motto
+**codicem hominem sapere facit — code makes a person wise.**

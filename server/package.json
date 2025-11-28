@@ -1,0 +1,13 @@
+{
+  "name": "mini-saas-starter-lite-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "sqlite3": "^5.1.6"
+  }
+}
